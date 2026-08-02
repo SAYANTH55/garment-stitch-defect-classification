@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# --- Dataset: NEVER commit (622 MB zip, 14,565 images) ---
+data/
+*.zip
+*.jpg
+*.jpeg
+*.png
+!figures/*.png
+
+# --- Model artefacts ---
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# --- Secrets: this repo is PUBLIC ---
+kaggle.json
+.env
+*.key
+
+# --- Logs ---
+logs/
+*.log
+wandb/
